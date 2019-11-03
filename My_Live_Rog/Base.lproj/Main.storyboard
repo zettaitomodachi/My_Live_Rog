@@ -344,7 +344,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Vw8-VR-Tgf"/>
                     <connections>
-                        <outlet property="miraicollectionView" destination="V1r-G7-FWR" id="OCT-1v-jEn"/>
+                        <outlet property="collectionView" destination="V1r-G7-FWR" id="o5C-Fk-cqq"/>
                         <segue destination="wc9-bU-mIg" kind="show" identifier="miraiToReceiptSegue" id="gp5-YM-bQv"/>
                     </connections>
                 </viewController>

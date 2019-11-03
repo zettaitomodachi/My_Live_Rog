@@ -114,8 +114,8 @@
 				1FEEEF14229167CD00AE2E79 /* Assets.xcassets */,
 				1FEEEF16229167CD00AE2E79 /* LaunchScreen.storyboard */,
 				1FEEEF19229167CD00AE2E79 /* Info.plist */,
-				1F36DE7C22E43264005C58D2 /* MiraiViewController.swift */,
 				1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */,
+				1F36DE7C22E43264005C58D2 /* MiraiViewController.swift */,
 				1F36DE7A22E4324E005C58D2 /* KakoViewController.swift */,
 				1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */,
 			);
