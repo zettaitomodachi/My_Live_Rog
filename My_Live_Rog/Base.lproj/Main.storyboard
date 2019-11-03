@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l1x-EM-EYJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GDhwGoJA-OTF112b2.otf">
+            <string>GD-HighwayGothicJA-OTF</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jcZ-uJ-hLZ">
+            <objects>
+                <viewController id="wc9-bU-mIg" customClass="ViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kMt-rZ-Jew">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RuN-01-l3Z" customClass="ReceiptView" customModule="My_Live_Rog" customModuleProvider="target">
+                                <rect key="frame" x="10" y="18" width="394" height="861"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Live Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cR-Dw-Kln">
+                                        <rect key="frame" x="8" y="8" width="378" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="49"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06A-5Y-p8f">
+                                        <rect key="frame" x="35" y="207" width="100" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Open" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZ9-ub-jOt">
+                                        <rect key="frame" x="35" y="257" width="100" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stert" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGp-H8-7Mx">
+                                        <rect key="frame" x="35" y="307" width="100" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ticket" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7L-Gl-0JG">
+                                        <rect key="frame" x="35" y="364" width="100" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Whose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkV-rz-Q6C">
+                                        <rect key="frame" x="35" y="157" width="100" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Live House Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTS-yn-4Qv">
+                                        <rect key="frame" x="33" y="91" width="329" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcb-lc-FyO">
+                                        <rect key="frame" x="156" y="156" width="175" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtf-M0-JEw">
+                                        <rect key="frame" x="156" y="210" width="175" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxv-kv-3o9">
+                                        <rect key="frame" x="156" y="260" width="175" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRQ-3T-mTa">
+                                        <rect key="frame" x="156" y="310" width="175" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFU-Yy-ptM">
+                                        <rect key="frame" x="156" y="367" width="175" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.92156862745098034" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zik-R9-9lg" firstAttribute="bottom" secondItem="RuN-01-l3Z" secondAttribute="bottom" constant="42" id="1j5-9p-b7V"/>
+                            <constraint firstItem="zik-R9-9lg" firstAttribute="bottom" secondItem="RuN-01-l3Z" secondAttribute="bottom" constant="10" id="7iS-4d-XP1"/>
+                            <constraint firstItem="zik-R9-9lg" firstAttribute="bottom" secondItem="RuN-01-l3Z" secondAttribute="bottom" constant="10" id="AjT-o7-gmi"/>
+                            <constraint firstItem="zik-R9-9lg" firstAttribute="bottom" secondItem="RuN-01-l3Z" secondAttribute="bottom" constant="10" id="LKq-14-EhJ"/>
+                            <constraint firstItem="RuN-01-l3Z" firstAttribute="leading" secondItem="zik-R9-9lg" secondAttribute="leading" constant="10" id="LXl-l4-gXW"/>
+                            <constraint firstItem="RuN-01-l3Z" firstAttribute="top" secondItem="zik-R9-9lg" secondAttribute="top" constant="10" id="OKG-hc-GpC"/>
+                            <constraint firstItem="zik-R9-9lg" firstAttribute="bottom" secondItem="RuN-01-l3Z" secondAttribute="bottom" id="Xkz-4a-aqw"/>
+                            <constraint firstItem="zik-R9-9lg" firstAttribute="trailing" secondItem="RuN-01-l3Z" secondAttribute="trailing" constant="10" id="oBB-K9-cCz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zik-R9-9lg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" id="wdC-y2-U9f"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="Jtf-M0-JEw" id="p25-Dq-Lwr"/>
+                        <outlet property="livehouseLabel" destination="vTS-yn-4Qv" id="NiX-CG-tA8"/>
+                        <outlet property="openLabel" destination="Gxv-kv-3o9" id="Hbc-Gn-yS6"/>
+                        <outlet property="stertLabel" destination="NRQ-3T-mTa" id="Pa9-d5-fI1"/>
+                        <outlet property="ticketLabel" destination="SFU-Yy-ptM" id="69F-zD-eCt"/>
+                        <outlet property="titleLabel" destination="5cR-Dw-Kln" id="83Y-Xt-EV2"/>
+                        <outlet property="whoseLabel" destination="Hcb-lc-FyO" id="Nam-Tn-X8s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Rr-Kx-fpo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502.89855072463774" y="100.44642857142857"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="HBu-xz-hg8">
+            <objects>
+                <viewController id="f4j-Wv-yRb" customClass="nikkiViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eyM-QO-sW2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NsF-yY-r9Z">
+                                <rect key="frame" x="20" y="94" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jdh-5A-hqL">
+                                <rect key="frame" x="20" y="262" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hhc-4U-eeA">
+                                <rect key="frame" x="20" y="346" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fCQ-cw-eoP">
+                                <rect key="frame" x="20" y="514" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rKn-kO-G0q">
+                                <rect key="frame" x="20" y="430" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4V2-3z-Q2p" userLabel="Ticket Style Text Field">
+                                <rect key="frame" x="20" y="598" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HA-Em-xzw">
+                                <rect key="frame" x="282" y="698" width="76" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="38"/>
+                                <state key="normal" title="未来">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveMiraiButton" destination="f4j-Wv-yRb" eventType="touchUpInside" id="734-7g-reB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlL-bi-g1h">
+                                <rect key="frame" x="59" y="698" width="83" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GD-HighwayGothicJA-OTF" family="GD-高速道路ゴシックJA-OTF" pointSize="38"/>
+                                <state key="normal" title="過去">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveKakoButton" destination="f4j-Wv-yRb" eventType="touchUpInside" id="FG5-yw-FH7"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PVQ-c6-UFg">
+                                <rect key="frame" x="20" y="178" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.92156862745098034" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="hhc-4U-eeA" secondAttribute="trailing" constant="20" id="2AK-S3-I51"/>
+                            <constraint firstItem="PVQ-c6-UFg" firstAttribute="top" secondItem="NsF-yY-r9Z" secondAttribute="bottom" constant="50" id="Ebn-sL-ZYS"/>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="fCQ-cw-eoP" secondAttribute="trailing" constant="20" id="FKY-SN-ooh"/>
+                            <constraint firstItem="hhc-4U-eeA" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="FXz-wA-ZF1"/>
+                            <constraint firstItem="4V2-3z-Q2p" firstAttribute="top" secondItem="fCQ-cw-eoP" secondAttribute="bottom" constant="50" id="FrV-zJ-7wf"/>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="Jdh-5A-hqL" secondAttribute="trailing" constant="20" id="JTY-wd-Agi"/>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="4V2-3z-Q2p" secondAttribute="trailing" constant="20" id="RwM-o9-Kkg"/>
+                            <constraint firstItem="NsF-yY-r9Z" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="UMy-5a-WAb"/>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="PVQ-c6-UFg" secondAttribute="trailing" constant="20" id="UsL-yC-zMf"/>
+                            <constraint firstItem="Jdh-5A-hqL" firstAttribute="top" secondItem="PVQ-c6-UFg" secondAttribute="bottom" constant="50" id="bTM-Kb-BMa"/>
+                            <constraint firstItem="PVQ-c6-UFg" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="f3n-Hn-Brc"/>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="rKn-kO-G0q" secondAttribute="trailing" constant="20" id="g7I-ae-7H9"/>
+                            <constraint firstItem="mff-d5-vvg" firstAttribute="trailing" secondItem="NsF-yY-r9Z" secondAttribute="trailing" constant="20" id="jNL-7c-5n8"/>
+                            <constraint firstItem="fCQ-cw-eoP" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="jwy-2t-Ctt"/>
+                            <constraint firstItem="Jdh-5A-hqL" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="mdq-mt-maY"/>
+                            <constraint firstItem="NsF-yY-r9Z" firstAttribute="top" secondItem="mff-d5-vvg" secondAttribute="top" constant="50" id="nW1-QI-vRw"/>
+                            <constraint firstItem="fCQ-cw-eoP" firstAttribute="top" secondItem="rKn-kO-G0q" secondAttribute="bottom" constant="50" id="omV-Mk-IZ2"/>
+                            <constraint firstItem="rKn-kO-G0q" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="oyp-vd-fJZ"/>
+                            <constraint firstItem="4V2-3z-Q2p" firstAttribute="leading" secondItem="mff-d5-vvg" secondAttribute="leading" constant="20" id="r93-Hn-4fx"/>
+                            <constraint firstItem="rKn-kO-G0q" firstAttribute="top" secondItem="hhc-4U-eeA" secondAttribute="bottom" constant="50" id="wEh-8b-IkG"/>
+                            <constraint firstItem="hhc-4U-eeA" firstAttribute="top" secondItem="Jdh-5A-hqL" secondAttribute="bottom" constant="50" id="xs6-Ks-wG9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mff-d5-vvg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Kxq-Nq-Idx"/>
+                    <connections>
+                        <outlet property="artistTextField" destination="Jdh-5A-hqL" id="b1m-VS-V8i"/>
+                        <outlet property="dateTextField" destination="hhc-4U-eeA" id="Ycs-y5-TcF"/>
+                        <outlet property="kaienTextField" destination="fCQ-cw-eoP" id="gsZ-3d-1TE"/>
+                        <outlet property="kaijoTextField" destination="rKn-kO-G0q" id="pMS-if-w5w"/>
+                        <outlet property="placeTextField" destination="PVQ-c6-UFg" id="SIH-nA-m4d"/>
+                        <outlet property="ticketTextField" destination="4V2-3z-Q2p" id="Sqt-8R-vsv"/>
+                        <outlet property="titleTextField" destination="NsF-yY-r9Z" id="TsC-PY-7Xk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0F-WO-jhB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-328.98550724637681" y="262.5"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="Sci-b5-Shy">
+            <objects>
+                <viewController id="3ZR-m0-7sx" customClass="KakoViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bap-fG-tvN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kjM-D5-qYn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SCs-aD-UL9">
+                                    <size key="itemSize" width="180" height="172"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="kakoLiveCell" id="PWL-qq-8P5">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="172"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="172"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYj-R1-T2d">
+                                                    <rect key="frame" x="20" y="76" width="140" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.92156862745098034" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ekj-18-wTN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="ZTS-Gk-L4x"/>
+                    <connections>
+                        <outlet property="collectionView" destination="kjM-D5-qYn" id="fT2-MC-Ndn"/>
+                        <segue destination="wc9-bU-mIg" kind="presentation" identifier="KakoToReceiptSegue" id="lLT-IS-4Ak"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fny-bH-CGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-328.98550724637681" y="-386.38392857142856"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="6LX-5x-SfM">
+            <objects>
+                <viewController id="u1T-7o-FbC" customClass="MiraiViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SUc-RF-LPj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="V1r-G7-FWR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.75294117647058822" green="0.92156862745098034" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VD8-TV-XJX">
+                                    <size key="itemSize" width="181" height="172"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="miraiLiveCell" id="bbE-UX-dv9">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="172"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="181" height="172"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8l0-1O-Xg0">
+                                                    <rect key="frame" x="26" y="62" width="129" height="49"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.92156862745098034" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="9gj-4q-sC7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Vw8-VR-Tgf"/>
+                    <connections>
+                        <outlet property="miraicollectionView" destination="V1r-G7-FWR" id="OCT-1v-jEn"/>
+                        <segue destination="wc9-bU-mIg" kind="show" identifier="miraiToReceiptSegue" id="gp5-YM-bQv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="juo-qi-R4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-330.43478260869568" y="951.5625"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8tz-8C-hcl">
+            <objects>
+                <tabBarController id="l1x-EM-EYJ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s1o-Va-uU5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.92156862745098034" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3ZR-m0-7sx" kind="relationship" relationship="viewControllers" id="naA-sN-fgO"/>
+                        <segue destination="f4j-Wv-yRb" kind="relationship" relationship="viewControllers" id="9aP-Si-100"/>
+                        <segue destination="u1T-7o-FbC" kind="relationship" relationship="viewControllers" id="QDp-BV-Niu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tIA-ei-h3S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1246" y="-64"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="lLT-IS-4Ak"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.74388136475580402" green="1" blue="0.32598805477805615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+</document>
