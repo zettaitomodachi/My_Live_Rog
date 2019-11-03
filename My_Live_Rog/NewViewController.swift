@@ -189,27 +189,39 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
     }
     
     func save (keyword: String){
-        data["title"] = titleTextField.text
-        data["artist"] = artistTextField.text
-        data["date"] = dateTextField.text
-        data["kaien"] = kaienTextField.text
-        data["kaijo"] = kaijoTextField.text
-        data["place"] = placeTextField.text
-        data["ticket"] = ticketTextField.text
         
-        
-        
-        if keyword == "kako"{
-            kako_ALLData.append(data)
-            saveData.set(kako_ALLData, forKey: keyword)
-            saveData.synchronize()
-        }else{
-            mirai_ALLData.append(data)
-            saveData.set(mirai_ALLData, forKey: keyword)
-            saveData.synchronize()
+        if titleTextField.text != "" && artistTextField?.text != "" && dateTextField.text != "" {
+            data["title"] = titleTextField.text
+            data["artist"] = artistTextField.text
+            data["date"] = dateTextField.text
+            data["kaien"] = kaienTextField.text
+            data["kaijo"] = kaijoTextField.text
+            data["place"] = placeTextField.text
+            data["ticket"] = ticketTextField.text
+                   
+            if keyword == "kako"{
+                kako_ALLData.append(data)
+                saveData.set(kako_ALLData, forKey: keyword)
+                saveData.synchronize()
+            }else{
+                mirai_ALLData.append(data)
+                saveData.set(mirai_ALLData, forKey: keyword)
+                saveData.synchronize()
+            }
+        }else {
+            let alert: UIAlertController = UIAlertController(title: "保存できません", message: "保存するには「タイトル」「アーティスト」「日付」が必要です。",preferredStyle: .alert)
+            alert.addAction(
+                UIAlertAction(
+                    title: "OK",
+                    style: .default,
+                    handler:  { action in
+                        print("OK押された！")
+                }
+            )
+        )
+            present(alert, animated: true , completion: nil)
+            
         }
-        
-        
     }
 
 func textFieldShouldReturn(_ textField: UITextField) -> Bool {
