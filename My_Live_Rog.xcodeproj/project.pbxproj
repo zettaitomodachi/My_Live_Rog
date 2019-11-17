@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F1049C22317B61700C88FA3 /* GDhwGoJA-OTF112b2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */; };
 		1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */; };
+		1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18F4792380F429008809F1 /* TabBarController.swift */; };
 		1F36DE7B22E4324E005C58D2 /* KakoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7A22E4324E005C58D2 /* KakoViewController.swift */; };
 		1F36DE7D22E43264005C58D2 /* MiraiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7C22E43264005C58D2 /* MiraiViewController.swift */; };
 		1F57AED322A01F7E00A1916C /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F57AED122A01E4000A1916C /* ReceiptView.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GDhwGoJA-OTF112b2.otf"; sourceTree = "<group>"; };
 		1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		1F18F4792380F429008809F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1F36DE7A22E4324E005C58D2 /* KakoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakoViewController.swift; sourceTree = "<group>"; };
 		1F36DE7C22E43264005C58D2 /* MiraiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraiViewController.swift; sourceTree = "<group>"; };
 		1F57AED122A01E4000A1916C /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				1F36DE7C22E43264005C58D2 /* MiraiViewController.swift */,
 				1F36DE7A22E4324E005C58D2 /* KakoViewController.swift */,
 				1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */,
+				1F18F4792380F429008809F1 /* TabBarController.swift */,
 			);
 			path = My_Live_Rog;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				1F36DE7D22E43264005C58D2 /* MiraiViewController.swift in Sources */,
 				1FEEEF10229167CB00AE2E79 /* ViewController.swift in Sources */,
 				1FEEEF0E229167CB00AE2E79 /* AppDelegate.swift in Sources */,
+				1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */,
 				1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */,
 				1F36DE7B22E4324E005C58D2 /* KakoViewController.swift in Sources */,
 			);
@@ -455,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2A3NS8AAR;
 				INFOPLIST_FILE = My_Live_Rog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2A3NS8AAR;
 				INFOPLIST_FILE = My_Live_Rog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -355,7 +355,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="8tz-8C-hcl">
             <objects>
-                <tabBarController id="l1x-EM-EYJ" sceneMemberID="viewController">
+                <tabBarController id="l1x-EM-EYJ" customClass="TabBarController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s1o-Va-uU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -375,5 +375,4 @@
     <inferredMetricsTieBreakers>
         <segue reference="lLT-IS-4Ak"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="0.74388136475580402" green="1" blue="0.32598805477805615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
