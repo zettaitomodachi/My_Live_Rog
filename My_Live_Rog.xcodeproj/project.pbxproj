@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F1049C22317B61700C88FA3 /* GDhwGoJA-OTF112b2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */; };
+		1F13F30A23936B0800184B58 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F13F30823936B0800184B58 /* CustomCell.swift */; };
+		1F13F30B23936B0800184B58 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F13F30923936B0800184B58 /* CustomCell.xib */; };
 		1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */; };
 		1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18F4792380F429008809F1 /* TabBarController.swift */; };
 		1F36DE7B22E4324E005C58D2 /* KakoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7A22E4324E005C58D2 /* KakoViewController.swift */; };
@@ -44,7 +45,8 @@
 
 /* Begin PBXFileReference section */
 		01407B060D6ACCCB1BBD5F49 /* Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig"; path = "Target Support Files/Pods-My_Live_Rog-My_Live_RogUITests/Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GDhwGoJA-OTF112b2.otf"; sourceTree = "<group>"; };
+		1F13F30823936B0800184B58 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		1F13F30923936B0800184B58 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		1F18F4792380F429008809F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1F36DE7A22E4324E005C58D2 /* KakoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakoViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +128,6 @@
 		1FBABE47238CFE30009A67EA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				1F1049C12317B5F700C88FA3 /* GDhwGoJA-OTF112b2.otf */,
 				1FEEEF16229167CD00AE2E79 /* LaunchScreen.storyboard */,
 				1FEEEF14229167CD00AE2E79 /* Assets.xcassets */,
 			);
@@ -137,6 +138,8 @@
 		1FEEEF01229167CB00AE2E79 = {
 			isa = PBXGroup;
 			children = (
+				1F13F30823936B0800184B58 /* CustomCell.swift */,
+				1F13F30923936B0800184B58 /* CustomCell.xib */,
 				1FEEEF0C229167CB00AE2E79 /* My_Live_Rog */,
 				1FEEEF21229167CD00AE2E79 /* My_Live_RogTests */,
 				1FEEEF2C229167CD00AE2E79 /* My_Live_RogUITests */,
@@ -317,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F1049C22317B61700C88FA3 /* GDhwGoJA-OTF112b2.otf in Resources */,
+				1F13F30B23936B0800184B58 /* CustomCell.xib in Resources */,
 				1FEEEF18229167CD00AE2E79 /* LaunchScreen.storyboard in Resources */,
 				1FEEEF15229167CD00AE2E79 /* Assets.xcassets in Resources */,
 				1FEEEF13229167CB00AE2E79 /* Main.storyboard in Resources */,
@@ -454,6 +457,7 @@
 				1FEEEF0E229167CB00AE2E79 /* AppDelegate.swift in Sources */,
 				1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */,
 				1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */,
+				1F13F30A23936B0800184B58 /* CustomCell.swift in Sources */,
 				1F36DE7B22E4324E005C58D2 /* KakoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
