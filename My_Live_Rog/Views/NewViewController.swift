@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alertift
 
 class nikkiViewController: UIViewController,UITextFieldDelegate {
     
@@ -18,13 +19,11 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var placeTextField:UITextField!
     @IBOutlet var finishTextField: UITextField!
     @IBOutlet var ticketTextField: UITextField!
-
+    
     
     
     var datePicer: UIDatePicker = UIDatePicker()
     var timePIcer: UIDatePicker = UIDatePicker()
-    
-    
     
     var saveData:UserDefaults = UserDefaults.standard
     var dataCount: Int = 0
@@ -79,7 +78,7 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
         let spacelItem = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
         let doneItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(done))
         toolbar.setItems([spacelItem, doneItem], animated: true)
-
+        
         // インプットビュー
         dateTextField.inputView = datePicer
         dateTextField.inputAccessoryView = toolbar
@@ -96,34 +95,34 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
         let doneTimeItem2 = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTime2))
         timeToolbar2.setItems([spacelItem, doneTimeItem2], animated: true)
         
-//        let timeToolbar3 = UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
-//        let doneTimeItem3 = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTime3))
-//        timeToolbar3.setItems([spacelItem, doneTimeItem3], animated: true)
-//
+        //        let timeToolbar3 = UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
+        //        let doneTimeItem3 = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTime3))
+        //        timeToolbar3.setItems([spacelItem, doneTimeItem3], animated: true)
+        //
         
         kaienTextField.inputView = timePIcer
         kaijoTextField.inputView = timePIcer
         kaienTextField.inputAccessoryView = timeToolbar
         kaijoTextField.inputAccessoryView = timeToolbar2
-//        finishTextField.inputAccessoryView = timeToolbar3
+        //        finishTextField.inputAccessoryView = timeToolbar3
         
         
         
         /*
-        print("check")
-        print(saveData.bool(forKey: "nikkiAllData"))
-        if saveData.bool(forKey: "nikkiAllData"){
-            saveData = saveData.object(forKey: "nikkiAllData") as! [Any]
-        }
-        //        titleTextField.text = saveData.object(forKey:"title") as? String
-        //        contentTextView.text = saveData.object(forKey:"content") as? String
-        //        whenTextField.text = saveData.object(forKey:"when") as? String
-        //        whereTextField.text = saveData.object(forKey:"where") as? String
-        //        whoTextField.text = saveData.object(forKey:"who") as? String
-        //        whatTextField.text = saveData.object(forKey:"what") as? String
-        //        howTextField.text = saveData.object(forKey:"how") as? String
-        
- // Do any additional setup after loading the view.*/
+         print("check")
+         print(saveData.bool(forKey: "nikkiAllData"))
+         if saveData.bool(forKey: "nikkiAllData"){
+         saveData = saveData.object(forKey: "nikkiAllData") as! [Any]
+         }
+         //        titleTextField.text = saveData.object(forKey:"title") as? String
+         //        contentTextView.text = saveData.object(forKey:"content") as? String
+         //        whenTextField.text = saveData.object(forKey:"when") as? String
+         //        whereTextField.text = saveData.object(forKey:"where") as? String
+         //        whoTextField.text = saveData.object(forKey:"who") as? String
+         //        whatTextField.text = saveData.object(forKey:"what") as? String
+         //        howTextField.text = saveData.object(forKey:"how") as? String
+         
+         // Do any additional setup after loading the view.*/
     }
     
     @objc func done() {
@@ -146,30 +145,30 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
         kaijoTextField.endEditing(true)
         
     }
-
-//@objc func doneTime3() {
-//            let formatter = DateFormatter()
-//            formatter.dateFormat = "HH:mm"
-//            kaijoTextField.text = "\(formatter.string(from: timePIcer.date))"
-//            kaijoTextField.endEditing(true
-//            )
-//        }
+    
+    //@objc func doneTime3() {
+    //            let formatter = DateFormatter()
+    //            formatter.dateFormat = "HH:mm"
+    //            kaijoTextField.text = "\(formatter.string(from: timePIcer.date))"
+    //            kaijoTextField.endEditing(true
+    //            )
+    //        }
     
     
-    @IBAction func saveMiraiButton(){
+    @IBAction func saveMiraiButton() {
         let keyword = "mirai"
         save(keyword: keyword)
         alert()
         shokika()
     }
-    @IBAction func saveKakoButton(){
+    @IBAction func saveKakoButton() {
         let keyword = "kako"
         save(keyword :keyword)
         alert()
         shokika()
     }
     
-    func shokika(){//
+    func shokika() {//
         titleTextField.text = ""
         artistTextField.text = ""
         dateTextField.text = ""
@@ -180,12 +179,10 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
     }
     
     func alert(){
-        let alert: UIAlertController = UIAlertController(title:"登録完了",message:"ライブの登録が完了しました",preferredStyle:.alert)
-        alert.addAction(
-            UIAlertAction(title: "OK", style: .default, handler: {action in print("OKされたで")}
-        )
-    )
-        present(alert, animated: true, completion: nil)
+        Alertift
+            .alert(title:"登録完了", message: "ライブの登録が完了しました")
+            .action(.default("OK"))
+            .show()
     }
     
     func save (keyword: String){
@@ -198,38 +195,29 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
             data["kaijo"] = kaijoTextField.text
             data["place"] = placeTextField.text
             data["ticket"] = ticketTextField.text
-                   
-            if keyword == "kako"{
+            
+            if keyword == "kako" {
                 kako_ALLData.append(data)
                 saveData.set(kako_ALLData, forKey: keyword)
                 saveData.synchronize()
-            }else{
+            } else {
                 mirai_ALLData.append(data)
                 saveData.set(mirai_ALLData, forKey: keyword)
                 saveData.synchronize()
             }
-        }else {
-            let alert: UIAlertController = UIAlertController(title: "保存できません", message: "保存するには「タイトル」「アーティスト」「日付」が必要です。",preferredStyle: .alert)
-            alert.addAction(
-                UIAlertAction(
-                    title: "OK",
-                    style: .default,
-                    handler:  { action in
-                        print("OK押された！")
-                }
-            )
-        )
-            present(alert, animated: true , completion: nil)
+        } else {
+            
+            Alertift
+                .alert(title: "保存できません", message: "保存するには「タイトル」「アーティスト」「日付」が必要です")
+                .action(.default("OK"))
+                .show()
             
         }
     }
-
-func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-    textField.resignFirstResponder()
-    return true
     
-    
-    
-  }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
 

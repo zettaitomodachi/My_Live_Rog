@@ -29,7 +29,6 @@ class KakoViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
