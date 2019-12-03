@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KakoViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class PastViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     
     @IBOutlet var collectionView: UICollectionView!

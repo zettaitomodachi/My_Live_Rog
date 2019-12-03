@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MiraiViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class FutureViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     
     @IBOutlet var collectionView: UICollectionView!
