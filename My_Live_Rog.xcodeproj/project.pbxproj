@@ -13,6 +13,7 @@
 		1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18F4792380F429008809F1 /* TabBarController.swift */; };
 		1F1C28902394F17900A8499F /* PastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1C288E2394F17900A8499F /* PastCollectionViewCell.swift */; };
 		1F1C28912394F17900A8499F /* PastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1C288F2394F17900A8499F /* PastCollectionViewCell.xib */; };
+		1F255A3523CAEEEF00AC7CA9 /* FutureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255A3323CAEEEF00AC7CA9 /* FutureCollectionViewCell.swift */; };
 		1F36DE7B22E4324E005C58D2 /* PastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7A22E4324E005C58D2 /* PastViewController.swift */; };
 		1F36DE7D22E43264005C58D2 /* FutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7C22E43264005C58D2 /* FutureViewController.swift */; };
 		1F57AED322A01F7E00A1916C /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F57AED122A01E4000A1916C /* ReceiptView.swift */; };
@@ -53,6 +54,8 @@
 		1F18F4792380F429008809F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1F1C288E2394F17900A8499F /* PastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F1C288F2394F17900A8499F /* PastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastCollectionViewCell.xib; sourceTree = "<group>"; };
+		1F255A3323CAEEEF00AC7CA9 /* FutureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FutureCollectionViewCell.swift; path = ../../../FutureCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F255A3423CAEEEF00AC7CA9 /* FutureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FutureCollectionViewCell.xib; path = /Users/mitsuki/Desktop/My_Live_Rog/My_Live_Rog/My_Live_Rog/Views/Future/FutureCollectionViewCell.xib; sourceTree = "<absolute>"; };
 		1F36DE7A22E4324E005C58D2 /* PastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastViewController.swift; sourceTree = "<group>"; };
 		1F36DE7C22E43264005C58D2 /* FutureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewController.swift; sourceTree = "<group>"; };
 		1F57AED122A01E4000A1916C /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 		1F1C288C2394E08500A8499F /* Future */ = {
 			isa = PBXGroup;
 			children = (
+				1F255A3323CAEEEF00AC7CA9 /* FutureCollectionViewCell.swift */,
+				1F255A3423CAEEEF00AC7CA9 /* FutureCollectionViewCell.xib */,
 				1F36DE7C22E43264005C58D2 /* FutureViewController.swift */,
 			);
 			path = Future;
@@ -483,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F57AED322A01F7E00A1916C /* ReceiptView.swift in Sources */,
+				1F255A3523CAEEEF00AC7CA9 /* FutureCollectionViewCell.swift in Sources */,
 				1F36DE7D22E43264005C58D2 /* FutureViewController.swift in Sources */,
 				1FEEEF10229167CB00AE2E79 /* ViewController.swift in Sources */,
 				1FEEEF0E229167CB00AE2E79 /* AppDelegate.swift in Sources */,
