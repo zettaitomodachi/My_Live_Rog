@@ -20,8 +20,6 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var finishTextField: UITextField!
     @IBOutlet var ticketTextField: UITextField!
     
-    
-    
     var datePicer: UIDatePicker = UIDatePicker()
     var timePIcer: UIDatePicker = UIDatePicker()
     

@@ -10,6 +10,8 @@ import UIKit
 
 class PastCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet var view: UIView!
+    
     @IBOutlet var liveImageView: UIImageView!
     @IBOutlet var liveDateLabel: UILabel!
     @IBOutlet var liveTitleLabel: UILabel!
@@ -19,6 +21,20 @@ class PastCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        self.backgroundColor = .white
+        self.layer.cornerRadius = 20
+        self.clipsToBounds = true
+    }
+    
+    func sss(text: String) {
+        
     }
 
+    func configure(liveImage: UIImage, liveDate: String, liveTitle: String, artist: String) {
+        liveImageView.image = liveImage
+        liveDateLabel.text = liveDate
+        liveTitleLabel.text = liveTitle
+        artistLabel.text = artist
+        
+    }
 }

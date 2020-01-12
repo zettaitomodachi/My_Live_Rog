@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PastCollectionViewCell" customModule="My_Live_Rog" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PastCell" id="gTV-IL-0wX" customClass="PastCollectionViewCell" customModule="My_Live_Rog" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="374" height="135"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -60,6 +60,12 @@
                 <constraint firstItem="3E9-li-9F8" firstAttribute="leading" secondItem="qpg-7x-BHg" secondAttribute="trailing" constant="10" id="z5X-Fk-Dee"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="artistLabel" destination="WXm-eS-02c" id="SlZ-YA-jgR"/>
+                <outlet property="liveDateLabel" destination="5W7-b3-IEX" id="jZH-6h-8v2"/>
+                <outlet property="liveImageView" destination="qpg-7x-BHg" id="5TN-sQ-ndZ"/>
+                <outlet property="liveTitleLabel" destination="3E9-li-9F8" id="iZ7-RI-83D"/>
+            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="120.87053571428571"/>
         </collectionViewCell>
     </objects>

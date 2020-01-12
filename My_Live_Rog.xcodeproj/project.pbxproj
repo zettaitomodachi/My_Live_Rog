@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F14A2DB239A35BF00FE4CAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14A2DA239A35BF00FE4CAC /* Constants.swift */; };
+		1F14A2DD23A2230700FE4CAC /* Live.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1F14A2DC23A2230700FE4CAC /* Live.jpeg */; };
 		1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */; };
 		1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18F4792380F429008809F1 /* TabBarController.swift */; };
 		1F1C28902394F17900A8499F /* PastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1C288E2394F17900A8499F /* PastCollectionViewCell.swift */; };
@@ -45,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		01407B060D6ACCCB1BBD5F49 /* Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig"; path = "Target Support Files/Pods-My_Live_Rog-My_Live_RogUITests/Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F14A2DA239A35BF00FE4CAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F14A2DC23A2230700FE4CAC /* Live.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Live.jpeg; sourceTree = "<group>"; };
 		1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		1F18F4792380F429008809F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1F1C288E2394F17900A8499F /* PastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				1FEEEF0D229167CB00AE2E79 /* AppDelegate.swift */,
+				1F14A2DA239A35BF00FE4CAC /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			children = (
 				1FEEEF16229167CD00AE2E79 /* LaunchScreen.storyboard */,
 				1FEEEF14229167CD00AE2E79 /* Assets.xcassets */,
+				1F14A2DC23A2230700FE4CAC /* Live.jpeg */,
 			);
 			name = Resource;
 			path = ..;
@@ -345,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEEEF18229167CD00AE2E79 /* LaunchScreen.storyboard in Resources */,
+				1F14A2DD23A2230700FE4CAC /* Live.jpeg in Resources */,
 				1FEEEF15229167CD00AE2E79 /* Assets.xcassets in Resources */,
 				1F1C28912394F17900A8499F /* PastCollectionViewCell.xib in Resources */,
 				1FEEEF13229167CB00AE2E79 /* Main.storyboard in Resources */,
@@ -483,6 +490,7 @@
 				1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */,
 				1F1C28902394F17900A8499F /* PastCollectionViewCell.swift in Sources */,
 				1F36DE7B22E4324E005C58D2 /* PastViewController.swift in Sources */,
+				1F14A2DB239A35BF00FE4CAC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
