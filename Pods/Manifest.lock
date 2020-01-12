@@ -1,0 +1,20 @@
+PODS:
+  - Alertift (4.1.1)
+  - IQKeyboardManagerSwift (6.5.4)
+
+DEPENDENCIES:
+  - Alertift
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - Alertift
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  Alertift: 950483ca193717cc8bb508a7dbbe34f4af321daf
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+
+PODFILE CHECKSUM: 4a22e46969dbfec8a8b3ce2995df5383854a96ca
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_My_Live_RogTests {
+  umbrella header "Pods-My_Live_RogTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
