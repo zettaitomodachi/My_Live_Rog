@@ -15,9 +15,12 @@ class FutureViewController: UIViewController, UICollectionViewDataSource, UIColl
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FutureLiveCell", for: indexPath) as? PastCollectionViewCell
-        cell?.configure(liveImage: #imageLiteral(resourceName: "Live.jpeg"), liveDate: "2019.9.8", liveTitle: "OTODAMA", artist: "清水音泉")
-        return cell!
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FutureLiveCell", for: indexPath) as? FutureCollectionViewCell else {
+            print("past_collectionview_cell initialize error")
+            return UICollectionViewCell()
+        }
+        cell.configure(liveImage: #imageLiteral(resourceName: "Live.jpeg"), liveDate: "2019.9.8", liveTitle: "OTODAMA", artist: "清水音泉")
+        return cell
     }
     
     
@@ -33,7 +36,7 @@ class FutureViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     
     
-    var receipt: [String:String] = [:]
+    var receipt: [String: String] = [:]
     
     
     var iro: UIColor!
