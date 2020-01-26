@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PastCollectionViewCell: UICollectionViewCell {
+class CustomCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var view: UIView!
     

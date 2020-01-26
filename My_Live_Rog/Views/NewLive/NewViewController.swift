@@ -17,7 +17,6 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var kaijoTextField:UITextField!
     @IBOutlet var dateTextField:UITextField!
     @IBOutlet var placeTextField:UITextField!
-    @IBOutlet var finishTextField: UITextField!
     @IBOutlet var ticketTextField: UITextField!
     
     var datePicer: UIDatePicker = UIDatePicker()
@@ -34,7 +33,6 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
         "kaijo":"",
         "setList":"",
         "place":"",
-        "finish":"",
         "ticket":"",
         
         
@@ -51,19 +49,19 @@ class nikkiViewController: UIViewController,UITextFieldDelegate {
             mirai_ALLData = saveData.array(forKey: "mirai") as! [Dictionary<String, String>]
         }
         
+        let gradation = CAGradientLayer()
+        let topcolor = UIColor.init(red: 166/255, green: 192/255, blue: 1, alpha: 1)
+        let bottomcolor = UIColor.init(red: 246/255, green: 128/255, blue: 132/255, alpha: 1)
+        gradation.colors = [topcolor.cgColor, bottomcolor.cgColor]
+        gradation.frame = view.frame
+        view.layer.insertSublayer(gradation, at: 0)
+        
+        
         titleTextField.delegate = self
         artistTextField.delegate = self
         placeTextField.delegate = self
         
-        
-        titleTextField.placeholder = "ライブ名"
-        artistTextField.placeholder = "アーティスト名"
-        kaienTextField.placeholder = "開演時間"
-        kaijoTextField.placeholder = "会場時間"
-        dateTextField.placeholder = "日付"
-        placeTextField.placeholder = "場所"
-        ticketTextField.placeholder = "チケット代金"
-        
+        ticketTextField.keyboardType = .numberPad
         
         
         // 日付
