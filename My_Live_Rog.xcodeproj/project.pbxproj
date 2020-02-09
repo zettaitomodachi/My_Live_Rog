@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F14A2DB239A35BF00FE4CAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14A2DA239A35BF00FE4CAC /* Constants.swift */; };
 		1F14A2DD23A2230700FE4CAC /* Live.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1F14A2DC23A2230700FE4CAC /* Live.jpeg */; };
 		1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */; };
 		1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18F4792380F429008809F1 /* TabBarController.swift */; };
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		01407B060D6ACCCB1BBD5F49 /* Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig"; path = "Target Support Files/Pods-My_Live_Rog-My_Live_RogUITests/Pods-My_Live_Rog-My_Live_RogUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F14A2DA239A35BF00FE4CAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1F14A2DC23A2230700FE4CAC /* Live.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Live.jpeg; sourceTree = "<group>"; };
 		1F18D06F22BF4C4F0066E4DB /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		1F18F4792380F429008809F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				1FEEEF0D229167CB00AE2E79 /* AppDelegate.swift */,
-				1F14A2DA239A35BF00FE4CAC /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -143,15 +140,13 @@
 		1FBABE46238CFDDF009A67EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1F18F4792380F429008809F1 /* TabBarController.swift */,
 				1FEEEF11229167CB00AE2E79 /* Main.storyboard */,
-				1F1C288E2394F17900A8499F /* CustomCollectionViewCell.swift */,
-				1F1C288F2394F17900A8499F /* CustomCollectionViewCell.xib */,
+				66D76A0523EF0E8B00F5987A /* Receipt */,
+				6620EF8223EEEE3500D09D06 /* Cell */,
 				1F1C288C2394E08500A8499F /* Future */,
 				1F1C288B2394E07A00A8499F /* Past */,
-				1FEEEF0F229167CB00AE2E79 /* ViewController.swift */,
 				1F1C288D2394E0D100A8499F /* NewLive */,
-				1F18F4792380F429008809F1 /* TabBarController.swift */,
-				1F57AED122A01E4000A1916C /* ReceiptView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +224,24 @@
 				8CD5B8374CB141679085040F /* Pods-My_Live_RogTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6620EF8223EEEE3500D09D06 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1F1C288E2394F17900A8499F /* CustomCollectionViewCell.swift */,
+				1F1C288F2394F17900A8499F /* CustomCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		66D76A0523EF0E8B00F5987A /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				1FEEEF0F229167CB00AE2E79 /* ViewController.swift */,
+				1F57AED122A01E4000A1916C /* ReceiptView.swift */,
+			);
+			path = Receipt;
 			sourceTree = "<group>";
 		};
 		7C3C588020A23A5F30272BB8 /* Frameworks */ = {
@@ -490,7 +503,6 @@
 				1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */,
 				1F1C28902394F17900A8499F /* CustomCollectionViewCell.swift in Sources */,
 				1F36DE7B22E4324E005C58D2 /* PastViewController.swift in Sources */,
-				1F14A2DB239A35BF00FE4CAC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,7 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2A3NS8AAR;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = My_Live_Rog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
