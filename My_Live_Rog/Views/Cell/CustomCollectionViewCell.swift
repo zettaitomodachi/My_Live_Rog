@@ -26,15 +26,10 @@ class CustomCollectionViewCell: UICollectionViewCell {
         self.clipsToBounds = true
     }
     
-    func sss(text: String) {
-        
-    }
-
     func configure(liveImage: UIImage, liveDate: String, liveTitle: String, artist: String) {
         liveImageView.image = liveImage
         liveDateLabel.text = liveDate
         liveTitleLabel.text = liveTitle
         artistLabel.text = artist
-        
     }
 }
