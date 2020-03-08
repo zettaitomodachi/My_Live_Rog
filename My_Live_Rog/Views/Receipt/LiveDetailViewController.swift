@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LiveDetailViewController: UIViewController {
     
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var livehouseLabel: UILabel!

@@ -12,10 +12,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Live Detail View Controller-->
         <scene sceneID="jcZ-uJ-hLZ">
             <objects>
-                <viewController id="wc9-bU-mIg" customClass="ViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wc9-bU-mIg" customClass="LiveDetailViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kMt-rZ-Jew">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,7 +160,7 @@
         <!--Add-->
         <scene sceneID="HBu-xz-hg8">
             <objects>
-                <viewController id="f4j-Wv-yRb" customClass="nikkiViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewLiveViewController" id="f4j-Wv-yRb" customClass="NewLiveViewController" customModule="My_Live_Rog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eyM-QO-sW2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -479,6 +479,6 @@
         <image name="plus" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lLT-IS-4Ak"/>
+        <segue reference="gp5-YM-bQv"/>
     </inferredMetricsTieBreakers>
 </document>

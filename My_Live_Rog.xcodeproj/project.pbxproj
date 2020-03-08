@@ -15,8 +15,8 @@
 		1F36DE7B22E4324E005C58D2 /* PastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7A22E4324E005C58D2 /* PastViewController.swift */; };
 		1F36DE7D22E43264005C58D2 /* FutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DE7C22E43264005C58D2 /* FutureViewController.swift */; };
 		1F57AED322A01F7E00A1916C /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F57AED122A01E4000A1916C /* ReceiptView.swift */; };
-		1FEEEF0E229167CB00AE2E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEEF0D229167CB00AE2E79 /* AppDelegate.swift */; };
-		1FEEEF10229167CB00AE2E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEEF0F229167CB00AE2E79 /* ViewController.swift */; };
+		1F9F55E02414936B00663CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F55DF2414936B00663CB7 /* AppDelegate.swift */; };
+		1FEEEF10229167CB00AE2E79 /* LiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEEF0F229167CB00AE2E79 /* LiveDetailViewController.swift */; };
 		1FEEEF13229167CB00AE2E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEEF11229167CB00AE2E79 /* Main.storyboard */; };
 		1FEEEF15229167CD00AE2E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEEF14229167CD00AE2E79 /* Assets.xcassets */; };
 		1FEEEF18229167CD00AE2E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEEF16229167CD00AE2E79 /* LaunchScreen.storyboard */; };
@@ -54,9 +54,9 @@
 		1F36DE7A22E4324E005C58D2 /* PastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastViewController.swift; sourceTree = "<group>"; };
 		1F36DE7C22E43264005C58D2 /* FutureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewController.swift; sourceTree = "<group>"; };
 		1F57AED122A01E4000A1916C /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		1F9F55DF2414936B00663CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FEEEF0A229167CB00AE2E79 /* My_Live_Rog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_Live_Rog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FEEEF0D229167CB00AE2E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FEEEF0F229167CB00AE2E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FEEEF0F229167CB00AE2E79 /* LiveDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDetailViewController.swift; sourceTree = "<group>"; };
 		1FEEEF12229167CB00AE2E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FEEEF14229167CD00AE2E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FEEEF17229167CD00AE2E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		1FBABE45238CFD79009A67EA /* App */ = {
 			isa = PBXGroup;
 			children = (
-				1FEEEF0D229167CB00AE2E79 /* AppDelegate.swift */,
+				1F9F55DF2414936B00663CB7 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 		66D76A0523EF0E8B00F5987A /* Receipt */ = {
 			isa = PBXGroup;
 			children = (
-				1FEEEF0F229167CB00AE2E79 /* ViewController.swift */,
+				1FEEEF0F229167CB00AE2E79 /* LiveDetailViewController.swift */,
 				1F57AED122A01E4000A1916C /* ReceiptView.swift */,
 			);
 			path = Receipt;
@@ -495,10 +495,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9F55E02414936B00663CB7 /* AppDelegate.swift in Sources */,
 				1F57AED322A01F7E00A1916C /* ReceiptView.swift in Sources */,
 				1F36DE7D22E43264005C58D2 /* FutureViewController.swift in Sources */,
-				1FEEEF10229167CB00AE2E79 /* ViewController.swift in Sources */,
-				1FEEEF0E229167CB00AE2E79 /* AppDelegate.swift in Sources */,
+				1FEEEF10229167CB00AE2E79 /* LiveDetailViewController.swift in Sources */,
 				1F18F47A2380F429008809F1 /* TabBarController.swift in Sources */,
 				1F18D07022BF4C4F0066E4DB /* NewViewController.swift in Sources */,
 				1F1C28902394F17900A8499F /* CustomCollectionViewCell.swift in Sources */,
@@ -679,7 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				DEVELOPMENT_TEAM = G2A3NS8AAR;
 				INFOPLIST_FILE = My_Live_Rog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (

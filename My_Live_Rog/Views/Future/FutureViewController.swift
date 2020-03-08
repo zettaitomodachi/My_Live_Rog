@@ -69,7 +69,7 @@ class FutureViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "miraiToReceiptSegue") {
-            let vc = segue.destination as?ViewController
+            let vc = segue.destination as? LiveDetailViewController
             let _ = vc?.view
 
             vc?.titleLabel.text = receiptInfo["title"] as? String

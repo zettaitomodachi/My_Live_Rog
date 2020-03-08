@@ -75,7 +75,7 @@
                 
                 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                     if (segue.identifier == "pastToReceiptSegue") {
-                        let vc = segue.destination as?ViewController
+                        let vc = segue.destination as? LiveDetailViewController
                         let _ = vc?.view
 
                         vc?.titleLabel.text = receiptInfo["title"] as? String

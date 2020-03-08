@@ -9,7 +9,7 @@
 import UIKit
 import Alertift
 
-class nikkiViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class NewLiveViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     // MARK: 変数
     @IBOutlet var titleTextField:UITextField!
@@ -137,10 +137,10 @@ class nikkiViewController: UIViewController,UITextFieldDelegate, UIImagePickerCo
     @IBAction func save() {
         saveData()
         alert()
-        shokika()
+        initialize()
     }
     
-    func shokika() {
+    func initialize() {
         titleTextField.text = ""
         artistTextField.text = ""
         dateTextField.text = ""
@@ -168,9 +168,9 @@ class nikkiViewController: UIViewController,UITextFieldDelegate, UIImagePickerCo
             liveData["place"] = placeTextField.text
             liveData["ticket"] = ticketTextField.text
             if liveImageView.image != nil {
-                liveData["liveImageData"] = liveImageView.image?.pngData()
+                liveData["liveImageData"] = liveImageView.image?.jpegData(compressionQuality: 1)
             } else {
-                liveData["liveImageData"] = UIImage(named: "Live.jpeg")?.pngData()
+                liveData["liveImageData"] = UIImage(named: "Live.jpeg")?.jpegData(compressionQuality: 1)
             }
             
             liveDataArray.insert(liveData, at: 0)
